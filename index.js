@@ -1,3 +1,5 @@
+'use strict'
+
 const AWS = require('aws-sdk')
 
 exports.getFile = function (bucket, key, contentType) {
